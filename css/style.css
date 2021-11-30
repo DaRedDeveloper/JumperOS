@@ -1,0 +1,56 @@
+@keyframes hover{
+  0%{background: lightcoral;}
+  100%{background: rgb(143, 77, 77);}
+}
+
+body{
+  background-image: url("/backgrounds/indexbg.png");
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#profilePic{
+  border: 3px solid black;
+  border-radius: 100px;
+  background: white;
+  margin: auto;
+}
+
+#username{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  margin: auto;
+}
+
+#password{
+  font-size: 20px;
+  font-family: Comic Sans MS;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+
+#enter{
+  background: lightcoral;
+  font-size: 20px;
+  font-family: Comic Sans MS;
+  border: 3px solid black;
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+  padding: 3px;
+}
+#enter:hover{
+  animation-name: hover;
+  animation-duration: 0.1s;
+  background: rgb(143, 77, 77);
+}
+
+#enter:active{
+  background: rgb(92, 50, 50);
+}
